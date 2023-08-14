@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={styles.navList}>
       <ul>
         <li>
           <Link to="about-me" smooth={true} offset={-70} duration={1000}>

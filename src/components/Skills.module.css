@@ -1,0 +1,29 @@
+.skillsSection {
+    padding: 2rem;
+  }
+  
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skillItem {
+    flex-basis: calc(25% - 1rem); /* Four items per row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    background-color:  #141D2C;
+  }
+  
+  .skillIcon {
+    width: 2rem; /* Adjust the icon size as needed */
+    height: 2rem;
+  }
+  
+  .skillName {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
