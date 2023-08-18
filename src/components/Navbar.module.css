@@ -1,7 +1,7 @@
 .navList {
     background-color: #1E293B;
     display: flex;
-    padding: 0.2rem 0;  /* Adjust the padding to increase the navbar height */
+    padding: 0.1rem 0;  /* Adjust the padding to increase the navbar height */
     justify-content: flex-end;
     position: sticky;
     top: 0.1px;
@@ -10,7 +10,7 @@
 .navList ul {
     display: flex;
     list-style: none;
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 .navList ul li {
@@ -22,7 +22,7 @@
     font-weight: bolder;
     text-decoration:none;
     padding: 0.4rem 0.8rem; /* Adjust padding to control the size of the capsules */
-    border-radius: 2rem; /* This creates the capsule-like rounded edges */
+    border-radius: 0.5rem; /* This creates the capsule-like rounded edges */
     background-color: #6f8cbb; 
     transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
 }  

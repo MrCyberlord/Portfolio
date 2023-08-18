@@ -1,6 +1,8 @@
 .footerItems{
     background-color: #1E293B;
     display: flex;
+    justify-content: space-between; 
+    align-items: center;
     padding: 0.3rem 0;
     position: sticky;
     bottom: 0.1px;
@@ -12,14 +14,23 @@
     align-items: center;
 }
 
-.iconContainer a {
+/* .iconContainer a {
     margin-right: 0.5rem;
     margin-left: 1rem;
     font-size: 1.8rem;
     color: #c4deff;
     transition: transform 1s ;
-    animation: bounce 2s infinite alternate;
+} */
+
+.iconContainer a {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    color: #c4deff;
+    filter: drop-shadow(0 0 8px #c4deff); /* Add a glow effect around the icon */
+    transition: transform 1s;
 }
+
 
 @keyframes bounce {
     from {
@@ -31,7 +42,7 @@
 }
 
 .iconContainer a:hover {
-color: 	#819cdc;
+    color: 	#819cdc;
 }
 
 .iconContainer a:active {
@@ -39,11 +50,30 @@ color: 	#819cdc;
 }
 
 .icon1 {
-    animation: bounce 1.5s infinite alternate;
+    animation: bounce 1s infinite alternate;
 }
 .icon2 {
-    animation: bounce 1.7s infinite alternate;
+    animation: bounce 1.2s infinite alternate;
 }
 .icon3 {
-    animation: bounce 1.9s infinite alternate;
+    animation: bounce 1.4s infinite alternate;
+}
+
+.upIcon {
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    color: #c4deff;
+    filter: drop-shadow(0 0 8px #c4deff);
+    transition: transform 1s;
+}
+
+
+
+.upIcon:hover{
+    color: #819cdc;
+    cursor: pointer;
+}
+
+.upIcon:active {
+    color: #ced9ea ;
 }

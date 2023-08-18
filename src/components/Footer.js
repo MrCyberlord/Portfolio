@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -6,6 +7,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faCircleUp } from "@fortawesome/free-regular-svg-icons";
 
 import styles from "./Footer.module.css";
 
@@ -35,6 +37,9 @@ const Footer = () => {
           <FontAwesomeIcon icon={faInstagram} className={styles.icon3} />
         </a>
       </div>
+      <Link to="header" smooth={true} offset={-70} duration={1000}>
+        <FontAwesomeIcon icon={faCircleUp} className={styles.upIcon} />
+      </Link>
     </footer>
   );
 };

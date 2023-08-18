@@ -1,0 +1,38 @@
+ .aboutMe {
+  display: flex;
+  min-height: 38rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ .aboutMeHeading {
+   color: #4f6383;
+   font-size: 2.7rem;
+   margin-bottom: 5rem;
+   animation: changeColor 5s infinite;
+}
+
+  @keyframes changeColor {
+    0% {
+      color: #4f6383  ;
+    }
+    50% {
+      color: #afbdd4 ;
+    }
+    100% {
+      color: #4f6383 ;
+    }
+  }
+
+.aboutMeIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
+    font-size: 1.5rem;
+    font-family: Verdana;
+} 
+
+
+

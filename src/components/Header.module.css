@@ -1,0 +1,65 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 38rem;
+}
+
+.headerClass {
+  font-size: 2rem;
+}
+
+.lineContainer {
+  text-align: left;
+}
+
+.handIcon {
+  transform-origin: 50% 100%;
+  animation: wavingHand 1s infinite;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+@keyframes wavingHand {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.text {
+    position: relative;
+    font-size: 2rem;
+    color: transparent;
+    background-image: linear-gradient(to right, #acbdd6 50%, transparent 50%);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  
+    animation: animate 15s linear infinite alternate;
+}
+
+  
+@keyframes animate {
+    0% {
+      background-position: 100% 0;
+    }
+    30% {  /* Adjust this percentage based on how fast you want the reveal animation */
+      background-position: 0 0;
+    }
+    90% {  /* This will make the text stay fully visible from 20% to 80% of the animation duration */
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+}
+
