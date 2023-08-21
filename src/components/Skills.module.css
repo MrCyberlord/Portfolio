@@ -1,9 +1,10 @@
 .skillsSection {
-    padding: 3rem;
+    padding:1.8rem;
+    min-height: 38rem;
   }
   
 .skillsHeading {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   text-align: center;
   font-size: 3.2rem;
   font-weight: 700;
@@ -18,7 +19,7 @@
     justify-content: space-around ;
     border: 0.2rem solid #314f81;
     border-radius: 1rem;
-    margin: 4rem 25%;
+    margin: 3.3rem 25%;
     animation: border 3s infinite alternate;
 }
 
@@ -57,4 +58,37 @@
   }
 
   
+  @media only screen and (max-width: 600px) {
+
+    .skillsSection {
+      padding:0.5rem;
+      min-height: 32rem;
+    }
+  
+    .skillsHeading {
+      font-size: 2.2rem;
+    }
+    
+    .skillsContainer {
+      padding: 1rem;
+      margin: 1.5rem 10%; /* Reduce the horizontal margin to give more space on smaller screens */
+      border-radius: 0.8rem;
+    }
+    
+    .skillItem {
+      flex-basis: calc(50% - 4rem); /* Make each skill item take about half the width of the container, minus some margin */
+      margin: 1rem;
+    }
+  
+    .skillIcon {
+      width: 2.5rem; 
+      height: 2.5rem;
+    }
+  
+    .skillName {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+  
+  }
   

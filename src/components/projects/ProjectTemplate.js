@@ -1,23 +1,19 @@
 import React from "react";
+import styles from "./ProjectTemplate.module.css";
 
-const ProjectTemplate = ({
-  name,
-  description,
-  technologies,
-  demoLink,
-  githubLink,
-}) => {
+const ProjectTemplate = ({ name, image, demoLink, githubLink }) => {
   return (
-    <div>
-      <h3>{name}</h3>
-      <p>{description}</p>
-      <p>Technologies used: {technologies}</p>
-      <p>
-        Live Demo: <a href={demoLink}> </a>
-      </p>
-      <p>
-        GitHub Repo: <a href={githubLink}> </a>
-      </p>
+    <div className={styles.projectCard}>
+      <img className={styles.projectImage} src={image} alt={name} />
+      <div className={styles.projectTitle}>{name}</div>
+      <div className={styles.buttonContainer}>
+        <a href={demoLink} target="_blank" rel="noopener noreferrer">
+          <button className={styles.demoButton}>Live Demo</button>
+        </a>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          <button className={styles.gitButton}>GitLink</button>
+        </a>
+      </div>
     </div>
   );
 };

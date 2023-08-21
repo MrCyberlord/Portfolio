@@ -13,6 +13,8 @@ header {
 
 .lineContainer {
   text-align: left;
+  font-size: 3rem;
+  color: #acc7ea;
 }
 
 .handIcon {
@@ -20,6 +22,7 @@ header {
   animation: wavingHand 1s infinite;
   display: inline-block;
   margin-right: 1rem;
+  color: #75a2de;
 }
 
 @keyframes wavingHand {
@@ -36,15 +39,16 @@ header {
 
 .text {
     position: relative;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
     color: transparent;
-    background-image: linear-gradient(to right, #acbdd6 50%, transparent 50%);
+    background-image: linear-gradient(to right, #446289 50%, transparent 50%);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-size: 200% 100%;
     background-position: 100% 0;
-  
-    animation: animate 15s linear infinite alternate;
+
+    animation: animate 20s linear infinite alternate;
 }
 
   
@@ -61,5 +65,33 @@ header {
     100% {
       background-position: 100% 0;
     }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    min-height: 31rem;
+}
+
+  .headerClass {
+    font-size: 1.5rem; /* Reduce font size for mobile */
+  }
+
+  .lineContainer {
+    font-size: 1.7rem; /* Reduce font size */
+    padding: 0.3rem;
+  }
+
+  .handIcon {
+    margin-right: 0.5rem; /* Adjust margin for smaller screens */
+    padding: 0;
+  }
+
+  .text {
+    font-size: 1.4rem; /* Adjust font size */
+    margin-bottom:0;
+  }
 }
 

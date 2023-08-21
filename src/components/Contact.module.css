@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1.5rem 0;
-    min-height: 35rem;
+    min-height: 38rem;
     font-size: 2rem;
     margin: 2.4rem 0 ;
     color: #4f6383;
@@ -62,4 +62,39 @@
 
 .contactItem a:hover {
     color: #6780a7;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .contactSection {
+        padding: 1rem 0; /* Reduced padding */
+        font-size: 1.4rem; /* Reduced font size */
+        margin: 1.4rem 0; /* Reduced margin */
+    }
+
+    .card {
+        width: 81%; 
+        height: 17rem; 
+        padding: 0rem; 
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .nestedCard {
+        width: 91%; /* Increase width slightly for better visibility */
+        padding: 0.6rem 0.5rem; /* Adjust padding */
+        margin-bottom: 0rem; /* Reduce margin-bottom */
+        margin-top: 1.5rem;
+    }
+
+    .contactPrompt {
+        margin-bottom: 2rem; /* Reduced margin-bottom */
+    }
+
+    .contactItem {
+        margin: 0.3rem 0; /* Reduced margin */
+        font-size: 1rem; /* Reduced font size */
+    }
+
 }
