@@ -69,16 +69,17 @@
 
     .contactSection {
         padding: 1rem 0; /* Reduced padding */
-        font-size: 1.4rem; /* Reduced font size */
+        font-size: 2.2rem; /* Reduced font size */
         margin: 1.4rem 0; /* Reduced margin */
+        min-height: 38rem;
     }
 
     .card {
         width: 81%; 
-        height: 17rem; 
+        min-height: 18rem; 
         padding: 0rem; 
         margin-top: 1rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .nestedCard {
@@ -93,8 +94,8 @@
     }
 
     .contactItem {
-        margin: 0.3rem 0; /* Reduced margin */
-        font-size: 1rem; /* Reduced font size */
+        margin: 0.3rem 0;
+        font-size: 1.5rem; 
     }
 
 }

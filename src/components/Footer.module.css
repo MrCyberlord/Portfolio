@@ -1,4 +1,4 @@
-.footerItems{
+.footer{
     background-color: #1E293B;
     display: flex;
     justify-content: space-between; 
@@ -81,19 +81,20 @@
 
 @media only screen and (max-width: 600px) {
 
-    .footerItems {
+    .footer {
         position: fixed;
         width: 100%;
+        height: 3rem;
     }
 
     .iconContainer a {
-        font-size: 1.8rem;
-        margin-right: 0.3rem;
+        font-size: 2.5rem;
+        margin-right: 0.5rem;
         margin-left: 0.5rem;
     }
 
     .upIcon {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         margin-right: 0.5rem;
     }
 

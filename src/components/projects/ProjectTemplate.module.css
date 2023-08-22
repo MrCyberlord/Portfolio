@@ -54,23 +54,23 @@
 @media only screen and (max-width: 600px) {
     
     .projectCard {
-        margin: 1rem 1.5rem; /* Reduce the left and right margin */
+        margin: 1.4rem 1.8rem; /* Reduce the left and right margin */
     }
 
     .projectTitle {
-        font-size: 1.2rem; /* Reduce the font size */
+        font-size: 1.8rem; /* Reduce the font size */
     }
 
     .projectImage {
         max-width: 100%; /* Allow the image to expand fully */
-        height: 8rem; /* Keep the image aspect ratio */
+        height: 12rem; /* Keep the image aspect ratio */
     }
-
-   
 
     .demoButton, .gitButton {
         margin-right: 1rem;
         margin-bottom: 0.5rem; /* Add some bottom margin */
+        font-size: 1.4rem;
+        font-weight: bold;
     }
 
 }

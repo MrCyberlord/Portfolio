@@ -8,8 +8,8 @@
  
  .aboutMeHeading {
    color: #4f6383;
-   font-size: 2.7rem;
-   margin-bottom: 5rem;
+   font-size: 3rem;
+   margin-bottom: 3rem;
    animation: changeColor 5s infinite;
 }
 
@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 10rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Verdana;
     color: #aec0d5;
 } 
@@ -38,7 +38,7 @@
 
 .digitalProduct {
   animation: digitalColors 5s infinite;
-  font-size: 1.05rem;
+  font-size: 2.1rem;
 }
 
 .clean {
@@ -69,19 +69,21 @@
 
 @media only screen and (max-width: 600px) {
   .aboutMe {
-    min-height: 32rem;
+    min-height: 38rem;
    }
 
   .aboutMeHeading {
-    font-size: 2rem; /* Reduce font size */
-    margin-bottom: 0.5rem; /* Adjust margin */
-    margin-top: 0.5rem;
+    font-size: 2.7rem; /* Reduce font size */
+    margin-bottom: 1rem; /* Adjust margin */
+    margin-top: 0.1rem;
   }
 
   .aboutMeIntro {
-    margin: 0 1rem; /* Reduce left and right margin */
-    font-size: 1rem; /* Adjust font size */
+    margin: 0 1.5rem; /* Reduce left and right margin */
+    font-size: 2rem; /* Adjust font size */
   }
 
-  
+  .digitalProduct {
+    font-size: 2.1rem;
+  }
 }
