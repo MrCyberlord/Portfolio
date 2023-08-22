@@ -69,21 +69,21 @@
 
     .contactSection {
         padding: 1rem 0; /* Reduced padding */
-        font-size: 2rem; /* Reduced font size */
+        font-size: 1.9rem; /* Reduced font size */
         margin: 1.4rem 0; /* Reduced margin */
-        min-height: 40rem;
+        min-height: 42rem;
     }
 
     .card {
-        width: 81%; 
+        width: 80%; 
         min-height: 18rem; 
         padding: 0rem; 
         margin-top: 1rem;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .nestedCard {
-        width: 91%; /* Increase width slightly for better visibility */
+        width: 90%; /* Increase width slightly for better visibility */
         padding: 0.6rem 0.5rem; /* Adjust padding */
         margin-bottom: 0rem; /* Reduce margin-bottom */
         margin-top: 1.5rem;
