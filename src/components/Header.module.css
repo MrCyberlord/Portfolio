@@ -79,7 +79,7 @@ header {
 }
 
   .lineContainer {
-    font-size: 2rem; 
+    font-size: 1.8rem; 
     padding: 0rem;
   }
 
@@ -89,7 +89,7 @@ header {
   }
 
   .text {
-    font-size: 2rem; 
+    font-size: 1.8rem; 
     margin-bottom:0;
   }
 }
