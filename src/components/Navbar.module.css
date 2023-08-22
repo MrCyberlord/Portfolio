@@ -97,7 +97,7 @@
 
 .navList .showMenu li {
     margin: 0 0rem;   /* Adjust this value for more or less space */
-    height: 3.2rem;
+    height: 3.5rem;
     width: 14rem;
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@
 .navList .showMenu li a {
     color:#1E293B ;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-decoration:none;
     padding: 0.2rem 0.4rem; /* Adjust padding to control the size of the capsules */
     border-radius: 0.2rem; /* This creates the capsule-like rounded edges */

@@ -73,17 +73,17 @@
    }
 
   .aboutMeHeading {
-    font-size: 2.7rem; /* Reduce font size */
-    margin-bottom: 1rem; /* Adjust margin */
-    margin-top: 0.1rem;
+    font-size: 2.5rem; /* Reduce font size */
+    margin-bottom: 0.8rem; /* Adjust margin */
+    margin-top: 0.5rem;
   }
 
   .aboutMeIntro {
     margin: 0 1.5rem; /* Reduce left and right margin */
-    font-size: 2rem; /* Adjust font size */
+    font-size: 1.4rem; /* Adjust font size */
   }
 
   .digitalProduct {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
   }
 }
