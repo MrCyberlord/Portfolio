@@ -15,7 +15,7 @@ const AboutMe = () => {
           I followed my heart and became a Software Engineer. I have over 1 year
           of experience in software development. I write{" "}
           <span className={styles.clean}>clean and efficient code </span>
-          that conveys the most satisfying, effective, and visually appealing
+          that conveys the most satisfying, effective and visually appealing
           experiences for users. Apart from technology, I am into fitness and
           love watching sci-fi movies & series.
         </p>
