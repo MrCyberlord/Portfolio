@@ -3,7 +3,7 @@
     display: flex;
     padding: 0.9rem 0;  /* Adjust the padding to increase the navbar height */
     justify-content: flex-end;
-    position: sticky;
+    position:fixed;
     top: 0.1px;
     height: 2.5rem;
 }
