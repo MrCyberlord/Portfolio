@@ -13,8 +13,8 @@ const Projects = () => {
     {
       name: "Food Delivery Website",
       image: "/ProjectImages/FoodOrderingApp.jpg",
-      demoLink: "https://example.com/demo2",
-      githubLink: "https://github.com/yourusername/project2",
+      demoLink: "https://restaurantapp11.netlify.app",
+      githubLink: "https://github.com/MrCyberlord/FoodOrderingApp",
     },
     {
       name: "Expense Tracker App",
