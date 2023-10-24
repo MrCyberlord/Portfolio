@@ -28,8 +28,7 @@ const Projects = () => {
       image: "/ProjectImages/ExpenseTracker.jpg",
       demoLink: "https://stirring-axolotl-b60d7c.netlify.app/",
       githubLink: "https://github.com/MrCyberlord/ExpenseTracker",
-      technologies:
-        "JavaScript, React, Redux Toolkit, Redux Thunk, Firebase, HTML, CSS",
+      technologies: "JavaScript, React, Redux Toolkit, Firebase, HTML, CSS",
       features:
         "Used Firebase for Authentication and database functionality. There's night mode and Expenses - csv file download option for premium users.",
     },
