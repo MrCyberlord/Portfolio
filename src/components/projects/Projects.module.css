@@ -14,11 +14,10 @@
 
 .title {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: #4f6383;
     font-weight: bold;
     animation: colorChange 10s infinite;  
-
 }
 
 @keyframes colorChange {
@@ -42,8 +41,13 @@
     }
   }  
   
-  
-  
+  .note {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    color: #88a9df;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+  }
   
   
 
@@ -74,7 +78,12 @@
 
   .title {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .note {
+    margin-bottom: 1.5rem;
+    align-self: center;
   }
 
 }
