@@ -12,8 +12,8 @@ const AboutMe = () => {
           <span className={styles.ideas}>ideas</span> into{" "}
           <span className={styles.digitalProduct}>digital products</span>. I
           have an Engineering degree in Electronics and Telecommunications
-          Engineering. I have over 1 year of experience in software development.
-          I believe in writing{" "}
+          Engineering. I have over 2 years of experience in software
+          development. I believe in writing{" "}
           <span className={styles.clean}>clean and efficient code. </span>
           Apart from technology, I am into fitness and love watching sci-fi
           movies & series.
