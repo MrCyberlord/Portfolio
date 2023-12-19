@@ -73,7 +73,7 @@
     .hamburger {
         display:inline-flex;  /* Show hamburger icon on mobile */
         align-self: center;
-        color: rgba(62, 85, 123, 0.5); 
+        color: rgba(185, 198, 219, 0.7); 
         font-size: 3rem;
         margin-right: 0.7rem;
         margin-bottom: 0.2rem;
@@ -109,7 +109,7 @@
         text-decoration:none;
         padding: 0.2rem 0.4rem;
         border-radius: 0.2rem; 
-        background-color: rgba(60, 79, 109, 0.7);  
+        background-color: rgba(185, 198, 219, 0.7);  
         transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
         width: 15rem;
     }
